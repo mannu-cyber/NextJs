@@ -1,3 +1,5 @@
+
+import Link from "next/link"
 import "./global.css"
 export const metadata = {
   title: 'Next.js',
@@ -7,8 +9,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-900 text-white pt-20">
-        <header className="w-screen h-20 bg-red-600 text-center text-3xl fixed top-0 left-0 " > Navbar</header>
+      <body className="bg-[#2b2d42] text-[#1a68ef] pt-20">
+        <header className="w-screen h-20 bg-[] text-center text-3xl fixed top-0 left-0 flex gap-5 justify-center" >
+          <Link href='/'>Home</Link>
+          <Link href="/about">About</Link>
+          <Link href="/products">Product</Link>
+          <Link href="/blog">Blog</Link>
+          <Link href="/contactUs">Contact Us</Link>
+          <Link href="/login">Login</Link>
+          <Link href="/registration">Registration</Link></header>
         {children}
 
         <footer className="w-screen h-20 text-3xl bg-zinc-700 fixed bottom-0 left-0">
