@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[#2b2d42] text-[#1a68ef] pt-20">
+      <body className="bg-[#000503] text-[#bcc14d] pt-20">
         <header className="w-screen h-20 bg-[] text-center text-3xl fixed top-0 left-0 flex gap-5 justify-center" >
           <Link href='/'>Home</Link>
           <Link href="/about">About</Link>
