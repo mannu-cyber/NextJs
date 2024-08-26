@@ -12,9 +12,7 @@
 4. layout.jsx or layout.tsx
 
 ### Difference between template and layout pages =>
-
-     1.They both are similar they wrap each child layout or pages .
-
+1. They both are similar they wrap each child layout or pages.
 2.  but with the template, when a user navigates between routes that share a template a new instance of the component is mounted,
 3.  DOM element are recreated, state is not preserved, and effect are re-synchronized
 4.  They both accept children prop and which will return the nested segment .
